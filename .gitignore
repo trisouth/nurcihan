@@ -162,6 +162,9 @@ cython_debug/
 #.idea/
 
 RawData/*.csv
-PipelineData/Bronze/*
-PipelineData/Gold/*
-PipelineData/Silver/*
+PipelineData/Bronze/*.csv
+PipelineData/Bronze/*.parquet
+PipelineData/Gold/*.csv
+PipelineData/Gold/*.parquet
+PipelineData/Silver/*.parquet
+PipelineData/Silver/*.csv
