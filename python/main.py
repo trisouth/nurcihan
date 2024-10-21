@@ -4,11 +4,11 @@ import os
 from custom_exception import CustomException
 
 # Define data paths
-yellow_taxi_path = os.path.join(os.getcwd(), "/home/parallels/vscode_projects/python/nurcihan/RawData/yellow_tripdata_2021-01.csv")
-green_taxi_path = os.path.join(os.getcwd(), "/home/parallels/vscode_projects/python/nurcihan/RawData/green_tripdata_2021-01.csv")
-bronze_dir = os.path.join(os.getcwd(), "/home/parallels/vscode_projects/python/nurcihan/PipelineData/Bronze")
-silver_dir = os.path.join(os.getcwd(), "/home/parallels/vscode_projects/python/nurcihan/PipelineData/Silver")
-gold_dir = os.path.join(os.getcwd(), "/home/parallels/vscode_projects/python/nurcihan/PipelineData/Gold")
+yellow_taxi_path = os.path.join(os.getcwd(), "/rawdata/yellow_tripdata_2021-01.csv")
+green_taxi_path = os.path.join(os.getcwd(), "/rawdata/green_tripdata_2021-01.csv")
+bronze_dir = os.path.join(os.getcwd(), "/pipelinedata/Bronze")
+silver_dir = os.path.join(os.getcwd(), "/pipelinedata/Silver")
+gold_dir = os.path.join(os.getcwd(), "/pipelinedata/Gold")
 
 yellow_tripdata_parquet = f"{bronze_dir}/yellow_tripdata.parquet"
 green_tripdata_parquet = f"{bronze_dir}/green_tripdata.parquet"
